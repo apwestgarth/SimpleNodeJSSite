@@ -5,7 +5,7 @@ const { body, validationResult } = require('express-validator/check');
 const router = express.Router();
 
 router.get('/', (req, res)=>{
-    res.render('form', {title: 'Registration form - Is this still working test 2?'});
+    res.render('form', {title: 'Registration form - Release from Dev Ops?'});
 });
 
 router.post('/', 
